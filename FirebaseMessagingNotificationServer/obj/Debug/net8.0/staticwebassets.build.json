@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wqm0pHMMm0uDuBQAU7RWJWEUxfQ+2Uq48OdPYJkz2bg=",
+  "Source": "FirebaseMessagingNotificationServer",
+  "BasePath": "_content/FirebaseMessagingNotificationServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
