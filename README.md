@@ -16,8 +16,8 @@ Lastly, place the .json file in the main root of the project, right where `Progr
 Now that both apps are configured, you just need to test the service. There are two ways to do this:
 
 - **From Firebase:**
-  > [!NOTE]
-  > This is only for testing; for actual implementation, using the REST API server is recommended.
+> [!NOTE]
+> This is only for testing; for actual implementation, using the REST API server is recommended.
   
   In Firebase, open the 'Execution' dropdown and search for 'Messaging' (if you don't find it there, go to 'All products') and **Start your first campaign**.  
   In the first steps, when you set the notification's title and text, a Test button will be enabled. If you click it, it will request you for a token.  
