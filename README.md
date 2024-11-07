@@ -31,14 +31,14 @@ Ahora que todo está configurado, solo queda probar que funciona el servicio. Es
   > En la documentación de Firebase, se recomienda usar métodos para guardar el token del dispositivo en el servidor para automatizar el proceso, en lugar de copiarlo y pegarlo manualmente. Para esto, reemplaza en el Cliente el código que guarda el token en el portapapeles con métodos que lo guarden en el servidor.
 
 ## 💻 Tecnologías usadas
-- Lenguajes de programación: C#, Java
-- Framework/Plantilla: ASP.NET Core (Creado con .NET 8.0), Empty Views Activity
+- Lenguajes de programación: [C#](https://dotnet.microsoft.com/es-es/languages/csharp), [Java](https://www.java.com/)
+- Framework/Plantilla: [ASP.NET Core](https://dotnet.microsoft.com/es-es/apps/aspnet) (Creado con [.Net](https://dotnet.microsoft.com/es-es/learn/dotnet/what-is-dotnet) 8.0), Empty Views Activity
 - NuGets/Librerías:
-  - Swashbuckle.AspNetCore NuGet (6.4.0)
-  - FirebaseAdmin SDK NuGet (3.0.1)
-  - com.google.gms:google-services (4.4.2)
-  - libs.firebase.bom
-  - libs.firebase.messaging
+  - [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) NuGet (6.4.0)
+  - [FirebaseAdmin SDK](https://www.nuget.org/packages/FirebaseAdmin) NuGet (3.0.1)
+  - [com.google.gms:google-services](https://developers.google.com/android/guides/google-services-plugin) (4.4.2)
+  - [libs.firebase.bom](https://firebase.google.com/docs/android/learn-more)
+  - [libs.firebase.messaging](https://firebase.google.com/docs/cloud-messaging)
 - Otros:
   - Firebase Messaging
-- IDE Recomendado: Visual Studio 2022, Android Studio (Koala Feature Drop 2024.1.2)
+- IDE Recomendado: [Visual Studio](https://visualstudio.microsoft.com/) 2022, [Android Studio](https://developer.android.com/studio) (Koala Feature Drop 2024.1.2)
