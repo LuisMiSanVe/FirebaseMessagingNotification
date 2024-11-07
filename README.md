@@ -7,11 +7,11 @@ With all functional apps, you just need to power them with the Firebase Messagin
 To do so, log in to your Google Account (if you haven't already), enter the [Firebase Console](https://console.firebase.google.com/), and create a new project (recommended) or use an old one.  
 Inside your Firebase project, go to Settings (⚙️) and add an Android App. Place the same package name that your app has (this repository example is `com.luismisanve.firebasemessagingnotification`).  
 Keep following the steps and ignore any that require you to put code into the app, as all the configuration is already made in the apps here.  
-Then, download `google-services.json` and place it right into the `apps` folder in your Android project.  
+Then, download `google-services.json` and place it right into the [apps](https://github.com/LuisMiSanVe/FirebaseMessagingNotification/tree/main/FirebaseMessagingNotification/app) folder in your Android project.  
 With that, the client side is fully configured.  
 
 Now, to do the same on the server side, in the same Firebase Settings you were in, change to the 'Service Accounts' tab and click on 'Generate new private key'. This will download a .json file that, by default, the REST API searches for by the name `credentials.json`, so change its name or update it in the REST API's code.  
-Lastly, place the .json file in the main root of the project, right where `Program.cs` is.
+Lastly, place the .json file in the main root of the project, right where [Program.cs](https://github.com/LuisMiSanVe/FirebaseMessagingNotification/tree/main/FirebaseMessagingNotificationServer) is.
 
 ## 🚀 Project Usage Explanation
 Now that both apps are configured, you just need to test the service. There are two ways to do this:
