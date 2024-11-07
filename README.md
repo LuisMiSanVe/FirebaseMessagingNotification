@@ -7,11 +7,11 @@ Con las apps ya configuradas, solo necesitas añadirles el servicio de Firebase 
 Para crearlo, inicia sesión en Google (si no lo habías hecho ya), entra en la [Consola de Firebase](https://console.firebase.google.com/) y crea un nuevo proyecto (recomendado) o usa uno que ya tengas.  
 Dentro de tu proyecto, ve a Configuración (⚙️) y agrega la app de Android. Ponle el mismo nombre de paquete que tiene la app (si usas la de este repositorio, es `com.luismisanve.firebasemessagingnotification`).  
 Sigue los pasos e ignora los que piden añadir líneas de código, ya que todo eso ya está configurado.
-Luego, descarga `google-services.json` y ponlo dentro de la carpeta `apps` de tu proyecto de Android.  
+Luego, descarga `google-services.json` y ponlo dentro de la carpeta [apps](https://github.com/LuisMiSanVe/FirebaseMessagingNotification/tree/main/FirebaseMessagingNotification/app) de tu proyecto de Android.  
 Con eso, la app del Cliente ya está vinculada.
 
 Ahora, para hacer lo mismo con el Servidor, en la misma pantalla de Configuración de Firebase, cambia a la pestaña de "Cuentas de servicio" y haz clic en "Generar nueva clave privada". Esto descargará un archivo .json que, por defecto, la REST API del Servidor busca con el nombre `credentials.json`, por lo que debes cambiar el nombre del archivo o el código de la REST API para que coincidan.  
-Para finalizar, coloca el .json en la ruta principal del proyecto del Servidor, justo donde está `Program.cs`.
+Para finalizar, coloca el .json en la ruta principal del proyecto del Servidor, justo donde está [Program.cs](https://github.com/LuisMiSanVe/FirebaseMessagingNotification/tree/main/FirebaseMessagingNotificationServer).
 
 ## 🚀 Cómo usar el proyecto
 Ahora que todo está configurado, solo queda probar que funciona el servicio. Esto se puede hacer de dos formas:
