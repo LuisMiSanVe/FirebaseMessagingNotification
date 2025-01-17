@@ -1,4 +1,4 @@
-> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/FirebaseMessagingNotification/tree/spanish)
+> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/FirebaseMessagingNotification/blob/main/README.es.md)
 # 📲 Firebase Messaging Notification Service
 [![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/languages/csharp)
 [![image](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
